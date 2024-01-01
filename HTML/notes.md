@@ -12,3 +12,5 @@
 - [ ] 3-  Extension VScode : Live Server , Mithiril Emmet, Auto-Tag ...
 - [ ] 4- Créer un dossier pour le projet (ex: HTML)
 - [ ] 5- Créer un fichier HTML (ex: index.html)
+
+## les balises
