@@ -1,0 +1,6 @@
+.soon-img {
+    width: 200px;
+    height: 200px;
+    background-image: url('soon.png');
+    background-size: cover;
+}
