@@ -1,0 +1,39 @@
+body{
+    /* vh relative  à la taille du navigateur */
+    height: 100vh;
+}
+
+
+.box{
+    background-color: aqua;
+    /*  Dimenssions  */
+    /* ! largeur  :*/
+    /* width: 200px; */
+    width: 50%;
+
+
+
+    /* hauteur */
+    /* height: 200px; */
+    height: 50%;
+
+}
+
+.box2{
+    background-color: burlywood;
+    /*  Dimenssions  */
+    /*  largeur  :*/
+    width: 100%;
+    /* max-wodth = largeur maximal */
+    max-width: 750px;
+    /* min-width = largeur minimal */
+    min-width: 250px;
+    /* hauteur */
+    height: 150px;
+    /* max-height = hauteur maximal */
+    max-height: 150px;
+    /* min-height = hauteur minimal */
+    min-height: 50px;
+
+
+}
