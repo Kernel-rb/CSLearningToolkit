@@ -12,11 +12,11 @@ public class Main {
     }
 
     public static Info getRepoInfo(String repo) {
-        return new Info("TypeScript", "Soon", "WebMasterToolKit/TypeScript");
+        return new Info("Java", "Soon", "WebMasterToolKit/Java");
     }
 
     public static void main(String[] args) {
-        System.out.println(getRepoInfo("TypeScript"));
+        System.out.println(getRepoInfo("Java"));
     }
 }
 
