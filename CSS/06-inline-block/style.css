@@ -1,0 +1,16 @@
+p{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    margin : 20px;
+    padding: 20px;
+}
+
+span{
+    /* element inline n 'accepte pas la width et la height */
+    /* n 'accepte la  m-t  et m-b */
+    background-color: aqua;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding: 25px;
+}
