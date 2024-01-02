@@ -1,0 +1,32 @@
+p {
+    /* ! https: //colorable.jxnblk.com/b5bb22/4741d9 */
+    /* ################################  Couleur de TXT */
+    /* Nom de couleur */
+        color : red;
+
+    /* Code hexadécimal */
+        color : #ff0000;
+
+    /* RGB color  */
+        color : rgb(255, 0, 0);
+    /* RGBA = rgb + opacity */
+        color : rgba(255, 0, 0, 1);
+    /* HSL */
+        color : hsl(0, 100%, 50%);
+    /* HWB */
+        color : hwb(0, 0%, 0%);
+
+    /* ################################  Couleur de FOND*/
+
+    background-color: white;
+    /* hexadécimal */
+        background-color: #ffffff;
+    /* RGB */
+        background-color: rgb(255, 255, 255);
+    /* RGBA */
+        background-color: rgba(255, 255, 255, 1);
+    /* HSL */
+        background-color: hsl(0, 0%, 100%);
+    /* HWB */
+        background-color: hwb(0, 100%, 0%);
+}

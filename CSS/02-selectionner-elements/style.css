@@ -1,0 +1,22 @@
+/* le n.element < classes < ids < mot cle  */
+p{
+    color :orange ;
+}
+
+.txt{
+    color :red;
+}
+
+#str{
+    color: blue;
+}
+
+.box p{
+    color: green;
+}
+
+.box .tx{
+    color: yellow;
+}
+
+/* !important  */
