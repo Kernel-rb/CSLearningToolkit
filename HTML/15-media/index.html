@@ -16,6 +16,12 @@
     <img src="https://images.unsplash.com/photo-1703957711009-aee8f7918503?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     <!-- figure : -->
     <figure>
-        <cap
+        <picture>
+            <source srcset="./src/images/image-400x400.jpg" media="(max-width: 400px)" type="Image/jpg">
+            <source srcset="./src/images/image-800x400.jpg" media="(max-width: 800px)" type="Image/jpg">
+            <source srcset="./src/images/image-1200x400.jpg" media="(max-width: 1200px)" type="Image/jpg" >
+            <img src="./src/images/image-1200x400.jpg" alt="image-1200x400">
+        </picture>
+    </figure>
 </body>
 </html>
