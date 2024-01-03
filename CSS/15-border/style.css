@@ -1,0 +1,31 @@
+/* !https: //9elements.github.io/fancy-border-radius */
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+
+
+   /* Border !!! */
+
+    border : 2px solid black;
+
+    /* border-left: 3px solid rgb(255, 118, 118);
+    border-right: 3px solid rgb(114, 203, 255);
+    border-top: 3px solid rgb(20, 255, 20);
+    border-bottom: 3px solid rgb(255, 33, 181); */
+    
+
+    /* border-style: dashed; */
+    /* border-style: initial; */
+    /* border-style: inset; */
+    /* border-style: ridge; */
+    /* border-style: double; */
+
+
+    /* border-radius: 50px 100px;
+    border-radius: 50px 100px 70px;
+    border-radius: 50px 100px 70px 95px; */
+
+    border-radius: 49% 10% 82% 0% / 55% 59% 38% 10%;
+}
