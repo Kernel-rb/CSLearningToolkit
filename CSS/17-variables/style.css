@@ -1,0 +1,30 @@
+body{
+--color : red ;
+--pad  : 20px 50px ;
+--marge : 20px ;
+--ff : 'Segoe UI' , Tahoma , Geneva , Verdana , sans-serif ;
+--tl : 20px ;
+-w : 300px ;
+-h : 300px ;
+-bc : #b44477 ;
+--b : 10px solid black ;
+--br : 50px 100px 70px 95px ;
+--br2 : 49% 10% 82% 0% / 55% 59% 38% 10% ;  
+}
+
+p{
+    color:var(--color) ;
+    padding: var(--pad) ;
+    margin: var(--marge) ;
+    font-family: var(--ff);
+    font-size: var(--tl);
+}
+
+.box{
+    width: var(--w);
+    height: var(--h);
+    background-color: var(--bc);
+    border: var(--b);
+    border-radius: var(--br);
+    border-radius: var(--br2);
+}
