@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,300;1,8..144,300;1,8..144,400&family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background-color:#252667 ;
+    color: #dddc9b
+}
+
+p{
+    /* !font => propiete raccourcis */
+    font-size: 20px;
+    line-height: 4;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    text-decoration: line-through;
+    white-space: wrap;
+    text-transform: capitalize;
+    /* espca entre les lettres */
+    letter-spacing: normal;
+}
