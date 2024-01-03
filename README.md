@@ -6,13 +6,13 @@ Welcome to the WebMastersToolkit! This repository is organized to help you learn
 
 | Folder Name          | Description                            |
 |----------------------|----------------------------------------|
-| [**Concepts**](Concepts)         | Fundamental web development concepts.  |
-| [**CSS**](CSS)              | Cascading Style Sheets (CSS) content.  |
-| [**HTML**](HTML)             | HyperText Markup Language (HTML) content. |
-| [**Java**](Java)             | Java programming language content.     |
-| [**JavaScript**](JavaScript)       | JavaScript programming language content. |
-| [**System-Design**](System-Design)    | System design-related materials.       |
-| [**TypeScript**](TypeScript)       | TypeScript programming language content. |
+| [**Concepts**](0.0Concepts)         | Fundamental web development concepts.  |
+| [**CSS**](2-Css)              | Cascading Style Sheets (CSS) content.  |
+| [**HTML**](1-Html)             | HyperText Markup Language (HTML) content. |
+| [**Java**](5-Java)             | Java programming language content.     |
+| [**JavaScript**](3-JavaScript)       | JavaScript programming language content. |
+| [**System-Design**](0.1-System-Design)    | System design-related materials.       |
+| [**TypeScript**](4-TypeScript)       | TypeScript programming language content. |
 
 Feel free to explore each folder to find resources and materials related to the corresponding technology or concept.
 ## 🌐 Additional Information:
