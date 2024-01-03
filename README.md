@@ -6,7 +6,7 @@ Welcome to the WebMastersToolkit! This repository is organized to help you learn
 
 | Folder Name          | Description                            |
 |----------------------|----------------------------------------|
-| [**Concepts**](0.0Concepts)         | Fundamental web development concepts.  |
+| [**Concepts**](0.0-Concepts)         | Fundamental web development concepts.  |
 | [**CSS**](2-Css)              | Cascading Style Sheets (CSS) content.  |
 | [**HTML**](1-Html)             | HyperText Markup Language (HTML) content. |
 | [**Java**](5-Java)             | Java programming language content.     |
