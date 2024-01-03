@@ -1,0 +1,18 @@
+.box{
+    width: 100%;
+    max-width: 750px;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+/* !Responsive :) */
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
