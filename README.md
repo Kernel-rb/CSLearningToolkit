@@ -23,7 +23,7 @@ Welcome to the CS Learning Toolkit repository! This repository is designed to gu
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/Kernel-rb/CS-Learning-Toolkit.git
+git clone https://github.com/Kernel-rb/CSLearningToolkit.git
 ```
 Feel free to explore each directory at your own pace. Happy learning! 🌟
 
