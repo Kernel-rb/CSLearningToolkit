@@ -1,22 +1,30 @@
-# WebMastersToolkit 🧰
+# CS Learning Toolkit 🚀
 
-Welcome to the WebMastersToolkit! This repository is organized to help you learn and explore various web development concepts. Each folder is dedicated to a specific technology or concept.
+Welcome to the CS Learning Toolkit repository! This repository is designed to guide you through your computer science learning journey, covering a range of essential topics and programming languages.
 
-## 📁 Folder Structure:
+## Directory Structure
 
-| Folder Name          | Description                            |
-|----------------------|----------------------------------------|
-| [**Concepts**](0.0-Concepts)         | Fundamental web development concepts.  |
-| [**CSS**](2-Css)              | Cascading Style Sheets (CSS) content.  |
-| [**HTML**](1-Html)             | HyperText Markup Language (HTML) content. |
-| [**Java**](5-Java)             | Java programming language content.     |
-| [**JavaScript**](3-JavaScript)       | JavaScript programming language content. |
-| [**System-Design**](0.1-System-Design)    | System design-related materials.       |
-| [**TypeScript**](4-TypeScript)       | TypeScript programming language content. |
+| #   | Directory               | Description                                  |
+|---|-------------------------|----------------------------------------------|
+| 01 | **01-Concepts**         | Foundational concepts in computer science.   |
+| 02 | **02-System-Design**    | Understanding system design principles.     |
+| 03 | **03-C**                | Introduction to the C programming language.  |
+| 04 | **04-HTML**             | Learning HTML for web development.           |
+| 05 | **05-CSS**              | Exploring CSS for styling web pages.         |
+| 06 | **06-JavaScript**       | Mastering JavaScript for dynamic content.   |
+| 07 | **07-TypeScript**       | Getting acquainted with TypeScript.         |
+| 08 | **08-Java**             | Diving into the Java programming language.  |
+| 09 | **09-Python**           | Comprehensive guide to Python programming.   |
+| 10 | **10-DataScience-ML**   | Introduction to Data Science and ML.         |
+| 11 | **11-Rust**             | Exploring the Rust programming language.    |
 
-Feel free to explore each folder to find resources and materials related to the corresponding technology or concept.
-## 🌐 Additional Information:
+## Getting Started
 
-This repository is designed to provide a structured learning path for various aspects of web development. Whether you are a beginner or an experienced developer, you'll find valuable resources in each folder.
+Clone this repository to your local machine using the following command:
 
-**Happy learning! 🚀**
+```bash
+git clone https://github.com/Kernel-rb/CS-Learning-Toolkit.git
+```
+Feel free to explore each directory at your own pace. Happy learning! 🌟
+
+
