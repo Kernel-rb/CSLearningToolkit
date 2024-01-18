@@ -1,0 +1,66 @@
+:root{
+    font-size: 20px;
+}
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    margin-bottom: 1rem;
+}
+
+
+/* active quand j appuie sur mon element sans relacher  */
+
+
+.box:active{
+    background-color: violet;
+}
+
+/* hover quand je passe ma souris sur mon element  */
+.box:hover{
+    background-color: yellow;
+}
+
+h1::first-letter{
+    color: red
+}
+
+
+/* focus quand je clique sur mon element  */
+input:focus{
+    background-color: gray;
+}
+/* checked =  fonctionne avec les inouts de type checkbox */
+input:checked{
+   width: 200px;
+   height: 300px;
+
+}
+
+
+/* visible = quand j ai deja visiter un lien  */
+
+a:visited{
+    color:  cyan;
+}
+
+/* nth-child = selectionner un enfant  or u can use even || even  */
+li:nth-child(odd){
+    color: red ;
+}
+li:nth-child(2){
+    color: orange ;
+}
+
+li:last-child{
+    color: green ;
+}
+
+#mail:valid{
+    background: green;
+}
+#mail:invalid{
+    background: red;
+}

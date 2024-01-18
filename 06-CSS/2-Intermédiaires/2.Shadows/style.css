@@ -1,0 +1,26 @@
+.box{
+    width: 250px;
+    height: 250px;
+    margin: 1rem  0 ;
+    background-color: orange;
+}
+
+.box1{
+    /* box-shadow : x  y  opcaity color 
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    /* Multi shodow */
+    /* box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5),
+                -5px -5px 10px 10px rgba(219, 6, 6, 0.5); */ 
+                
+    /* inset  */
+    box-shadow :   inset 10px 10px 10px 10px rgba(0,0,0,0.5);
+
+}       
+
+
+h1{
+    text-align: center ;
+    color : rod ;   
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+    /*  You can add shdow to txt like div's */
+}
