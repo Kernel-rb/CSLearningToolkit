@@ -1,0 +1,17 @@
+.count{
+    width: 400px;
+    height: 200px;
+}
+
+.box{
+    width : 200px;
+    height: 200px;
+    background: red;
+    /* translate( x ; y )  */
+    transform: translate(100px, 100px);
+    /*
+    ! translate( x ; y )
+    calc(100px + 100px) = 200px
+    */
+    
+}

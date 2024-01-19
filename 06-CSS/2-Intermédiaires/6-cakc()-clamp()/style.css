@@ -1,0 +1,15 @@
+p{
+    font-size: calc(25px + 2vw - 2px);
+}
+
+.box {
+    width: calc(100% - 80px);
+    height: 200px;
+    background :black;
+}
+
+.box2{
+    margin-top: 1rem;
+    /* width: clmp(200px, 50%, 500px); */
+    width: max(200px, 50%, 500px);
+}
