@@ -1,0 +1,17 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background: salmon;
+    text-align: center ;
+    color : white;
+    /* transition-property:background;
+    transition-duration: 1s;
+    transition-delay:2s ;
+    transition-timing-function: ease; */
+    transition: background 1s 2s ease-in-out;
+}
+
+
+.box:hover{
+    background: green;
+}

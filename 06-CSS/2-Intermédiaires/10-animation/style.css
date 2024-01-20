@@ -1,0 +1,27 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background: salmon;
+    text-align: center;
+    color: white;
+    
+    animation-name: changeColor;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes changeColor {
+    0% {
+       transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
