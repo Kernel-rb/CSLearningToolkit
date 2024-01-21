@@ -1,0 +1,22 @@
+body{
+    background: #f1f1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 500px;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 36%;
+    shape-outside: circle(20% at 50% 50%);
+    shape-margin: 5rem;
+}

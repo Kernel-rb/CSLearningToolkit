@@ -1,0 +1,49 @@
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100vh;
+    background: #b4b6b2;
+}
+
+.wave {
+    position: absolute;
+    width: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wave p {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wave p:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 0.3px #4e4c50;
+    animation: waves 3s ease-in-out infinite;
+}
+
+@keyframes waves {
+    0% {
+        clip-path: polygon(10% 65%, 15% 74%, 32% 50%, 54% 60%, 70% 61%, 64% 59%, 100% 52%, 100% 100%, 0 100%);
+    }
+    50% {
+        clip-path: polygon(0% 60%, 16% 75%, 35% 66%, 54% 60%, 70% 61%, 64% 59%, 100% 52%, 100% 100%, 0 100%);
+    }
+    100% {
+        clip-path: polygon(10% 65%, 15% 74%, 32% 50%, 54% 60%, 70% 61%, 64% 59%, 100% 52%, 100% 100%, 0 100%);
+    }
+}

@@ -1,0 +1,109 @@
+:root{
+    --color1: aqua;
+    --color2: white;
+    --arr : 4px ;
+    --bor : 1px solid #ccc;
+}
+
+*, ::before , ::after{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    margin : 0;
+}
+
+body{
+    margin : 0 ;
+    line-height: 1.5rem;
+    background-color: var(--color1);
+}
+.container {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--color2);
+    min-height: 100vh;
+}
+
+#top{
+    color : var(--color2);
+    background-color: var(--color1);
+    padding: 1rem;
+    border-radius: var(--arr);
+    margin-bottom: 2rem;
+}
+
+#top h1 , #top p{
+    margin: 0;
+    margin-top: 1rem ;
+}
+
+#menulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menulist > li{
+    border: var(--bor);
+    margin : .3rem 0;
+    padding : .2rem .5rem ;
+    border-radius: var(--arr);
+    background-color: var(--color22);
+}
+
+#menulist > li:nth-of-type(1),
+#menulist > li:hover{
+    color : var(--color2)   ;
+    background-color: var(--color1);
+    border-color: transparent;
+}
+
+#sidebar{
+    color:white;
+    background:var(--color1);
+    padding:1rem;
+    border-radius: var(--arr);
+    margin-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+#bottom{
+    border: var(--bor);
+    padding: 1rem;
+    border-radius: var(--arr);
+    background-color: var(--color2);
+    text-align: center; 
+    font-size: 0.75rem;
+}
+
+
+@media screen and (min-width:786px){
+    #menubar{
+        float: left;
+        width: 25%;
+    }
+    #main{
+        float : right ; 
+        width: clac(75% - 1rem);
+    }
+    #sidebar , #bottom{
+        clear : both ;
+    }
+}
+
+@media screen and (min-width:1024px){
+    #main{
+        width: calc(50%-2rem);
+        float: left;
+        margin-left: 1rem;
+    }
+    #sidebar{
+        width: 25%;
+        float: right;
+        clear:  none;
+    }
+    
+}

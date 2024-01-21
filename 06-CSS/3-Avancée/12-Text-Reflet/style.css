@@ -1,0 +1,40 @@
+::before , ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: #f1f1f1;
+}
+
+.reflet{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display :flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reflet p {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color : black;
+    text-align: center;
+}
+
+.reflet > :last-child{
+    transform: rotateX(180deg)  translateY(28px);
+    background: linear-gradient(transparent , 85% , black);
+    color : transparent;
+    -webkit-background-clip: text;
+
+
+}

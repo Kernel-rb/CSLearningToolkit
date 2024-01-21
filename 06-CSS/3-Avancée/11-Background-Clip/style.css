@@ -1,0 +1,13 @@
+body{
+    background: #f1f1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient( aqua , red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color :transparent;
+}

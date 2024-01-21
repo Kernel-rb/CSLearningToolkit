@@ -1,0 +1,10 @@
+.logo {
+    width: 230px;
+    height: 225px;
+    margin: 5px;
+    background: url(https://imgs.search.brave.com/XVx3WyaXSz_IcTpX6PT7bANhw9PITQVPdyGkbUFS1b8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0ovamF2YXNj/cmlwdC1qcy1sb2dv/LTI5NDk3MDE3MDIt/c2Vla2xvZ28uY29t/LnBuZw);
+}
+
+.logo2{
+    background-position: -300px 0;
+}

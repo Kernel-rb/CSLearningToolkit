@@ -1,0 +1,7 @@
+/* forcer le naviateur à appliquer certains focntionnalitée */
+
+-o-color : red; /* pour opera */
+-moz-color : red; /* pour mozilla */
+-webkit-color : red; /* pour safari et chrome et android */
+-ms-color : red; /* pour internet explorer */
+-khtml-color : red; /* pour konqueror KHTML*/
