@@ -1,0 +1,11 @@
+.box{
+    width: 400px;
+    height: 400px;
+    /* degreade linear  */
+    /* background: linear-gradient(to top , red , yellow); */
+    /* background: linear-gradient(to top , red , yellow , orange ); */
+    /* background: linear-gradient(70deg , red , yellow , aqua , orange); */
+    /* background: linear-gradient(70deg , red 40% , yellow 30% , aqua 20% , orange 10% ); */
+    /* background: linear-gradient(to bottom left , blue 50% , red 50%); */
+    background: linear-gradient(to right  , transparent ,  rgb(92, 92, 197) 50% , rgb(240, 119, 119) 50% , transparent);
+}

@@ -1,0 +1,7 @@
+.box{
+    width: 400px;
+    height: 400px;
+    /* background: repeating-linear-gradient( -45deg , transparent ,  rgb(92, 92, 197) 50% , rgb(240, 119, 119) 50%  , brown, transparent); */
+    background: repeating-radial-gradient( circle at top, transparent ,  rgb(92, 92, 197) 50% , rgb(240, 119, 119) 50%  , brown, transparent);
+
+}
