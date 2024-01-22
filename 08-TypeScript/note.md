@@ -16,31 +16,31 @@
 
 ![Alt text](img/ts-vs.png)
 
-## Setup your ide : 
+## Setup your ide
 
     -  For me , I'm using  Vs code  but u can use whatever u want like neovim ... 
     -  In vs , we gonna need this extention 
 
-![Alt text](img/ts-extention.png) 
+![Alt text](img/ts-extention.png)
 
     and also an other extention called Code Runner 
 
 ![Alt text](img/codeRunner.png)
 
-## First Ts file  :
+## First Ts file
 
     -  We gonna create a file called "index.ts" , ts is typescript extention
     -  U gonna find all codes on the github repo with documentation 
-    
-# Annotations : 
+
+# Annotations in TypeScript
 
     - Annotation are used to specify the data type of a variable , parametre , function return value , and other types of values . 
 
-## What is the perpous of Annotation: 
+## What is the perpous of Annotation
 
     - Annotation helps devlopers to catch errors early in devlopement by allowing theme to specify what type of values can be assigned to a given varibale or passed an argument to a fucntion 
 
-### Example of Annotation : 
+### Example of Annotation
 
     - Annotation in ts : ``ts
         let myValue: type = value
@@ -53,59 +53,59 @@
 
 ![Alt text](img/InccorectAnnotation.png)
 
-#### String : 
+#### String
 
     - let myStr: string  = "String" ;
 
-#### Number : 
+#### Number
 
     - let myAge : Number  = 7 ;
 
-#### Boolean 
+#### Boolean
 
     - let tsHard : boolean  = false ;
 
- u Can find all does examples on this path 
+ u Can find all does examples on this path
 
  [Code/Annotation.ts]
 
-# TypeInference :   
+# TypeInference
 
     - If you declare a variable without explicity specifying its type , TypeScript will try to infer the type based on the value you assign to it .
 
-## Example : 
+## Example
 
 ![Alt text](image.png)
 
-# Any Type in Ts  :
+# Any Type in Ts
 
     - In TypeScript, any means a variable can be anything, bypassing the usual type checks. It's flexible but risky. 
 
 ![Alt text](img/any.png)
 
-# Function { Parameters : Annotations} : 
+# Function { Parameters : Annotations}
 
     - In ts are used to specify the expected types of the parametres that a function takes
 
-## Example : 
+## Example
 
 ![Alt text](img/functions.png)
 
-## Return Annotation (Regular) :
+## Return Annotation (Regular)
 
 ![Alt text](img/ReturnAnnotation.png)
 
-# Void in TypeScript : 
+# Void in TypeScript
 
-## What is Void : 
+## What is Void
 
     -  is like a function that does a job but doesn't produce a result you can use,is like saying, "I'm doing something, but I won't give you anything in return.
 
-### Example : 
+### Example
 
 ![Alt text](img/void.png)
 
-# Never in Typescript : 
+# Never in Typescript
 
     - The never keyword is used to indicate that a function will not return anything , or that a varibale will never have a value . the never type is useful for indicating that certain code path should never be reached . it can help catch errors at compile time instead of run time.
     -"never" is like a special type we use when we want to tell TypeScript, "This thing will never happen or finish normally."
@@ -115,7 +115,7 @@
         - A fnct that has an ifinite loop
         - A variable that can nvr have a value
 
-# Arrays in TypeScript 
+# Arrays in TypeScript
 
     - Arrays are a type of obeject that can store multiple values of the same data type .
     - Arrays in ts are typed , meaning that you can specify what type of values can be stored in an array .
@@ -123,12 +123,12 @@
         - let myArr : type[] = [] ;
         - let myArr : Array<type> = [] ;
 ![Alt text](img/Array.png)
-    - push() : 
+    - push() :
         - The push() method adds one or more elements to the end of an array and returns the new length of the array.
     - pop() :
         - The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
 
-# Multi-dimensional Arrays in TypeScript : 
+# Multi-dimensional Arrays in TypeScript
 
     - A multi-dimensional array is an array that contains another array(s) as its element(s). 
     - The elements of a multi-dimensional array are arranged in a tree-like structure, where each element of the main array is a sub-array.
@@ -136,20 +136,22 @@
 example :
 ![Alt text](img/Multiarray.png)
 
-# Objects in Typescript :
+# Objects in Typescript
+
     - Objects are a type of data in Typescript that can store a collection of data .
     - Objects in ts are typed , meaning that you can specify what type of values can be stored in an object .
 example :
 ![Alt text](img/Object.png)
 
-# Type Aliases : 
+# Type Aliases
+
         - A type in Typescript is a way to describe a value . like : string , number , boolean , etc ...
         - Type aliases are a way to create a new name for a type in Typescript.
         - Type aliases are defined using the type keyword , followed by the name of the type , an equal sign , and the type that the alias refers to .
 example :
 ![Alt text](img/type.png)
 
-# Optional Properties in TypeScript : 
+# Optional Properties in TypeScript
 
     - Optional properties are properties that may or may not exist on an object. 
     - Optional properties are declared using a question mark (?) after the property name.

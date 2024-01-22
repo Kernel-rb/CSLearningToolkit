@@ -7,6 +7,7 @@ const ID : {
 } = {
     firstName: 'Saif',
     lastName: "Matab",
+
     age: 19,
     student : true,
 };
@@ -19,8 +20,8 @@ const Hobby: {
     } = {
     Football: false,
     Basketball : false,
-    Dev:  true,
-
+    Dev: true,
+    
 };
 
 console.log(`My Name is ${ID.firstName + ID.lastName} ,${ID.age} years old and i love Codding `)
