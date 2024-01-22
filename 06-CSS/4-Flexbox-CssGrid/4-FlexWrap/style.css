@@ -1,0 +1,16 @@
+.count{
+ height: 500px;
+ background: salmon;
+ display: flex;  
+ /* wrap de nos items */
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+
+.item{
+    width: 250px;
+    height: 250px;
+    background: red;
+    margin: 1rem;
+}

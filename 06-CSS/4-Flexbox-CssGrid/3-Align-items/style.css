@@ -1,0 +1,22 @@
+.count{
+ height: 500px;
+ background: salmon;
+ display: flex;  
+/* alignement vertical */
+/* align-items: center; */
+/* align-items: flex-start; */
+/* align-items: flex-end; */
+/* align-items: stretch; tous la distance de haut en bas */
+/* align-items: baseline; */
+/* align-items: normal; */
+
+
+}
+
+
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+}

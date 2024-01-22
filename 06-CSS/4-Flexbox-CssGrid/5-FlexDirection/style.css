@@ -1,0 +1,18 @@
+.count{
+ height: 500px;
+ background: salmon;
+ display: flex;  
+    /* !flex-direction  => direction du flex  */
+    /* flex-direction: column; en colonne */
+    /* flex-direction: column-reverse; en colonne inversé */
+    /* flex-direction: row; en ligne */
+    /* flex-direction: row-reverse; en ligne inversé */
+}
+
+
+.item{
+    width: 250px;
+    height: 250px;
+    background: red;
+    margin: 1rem;
+}

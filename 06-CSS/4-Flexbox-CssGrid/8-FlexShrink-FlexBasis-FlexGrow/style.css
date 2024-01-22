@@ -1,0 +1,36 @@
+.count {
+    height: 500px;
+    background: salmon;
+}
+
+
+.item {
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+
+    /* raccourci  */
+    /* flex grow / flex shrink / fles basis */
+    flex : 0 0 150px;
+}
+
+
+
+/* flex grow => gerer l espace que prend nos items */
+/* flex basis => fonctionne comme width */
+
+.item:nth-child(1){
+    background:   violet ;
+    /* flex-grow: 3; */
+}
+.item:nth-child(2) {
+    background: blanchedalmond;
+    /* flex-grow: 1; */
+}
+.item:nth-child(3) {
+    background: blueviolet;
+    /* width: 450px;
+    flex-shrink : 0; ne peut pas diminuer */
+    flex-basis: 250px;
+}

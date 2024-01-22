@@ -1,0 +1,21 @@
+.count{
+ height: 500px;
+ background: salmon;
+ 
+ align-content: space-around;
+ align-content: space-between;
+ align-content: space-evenly;
+ align-content: stretch;
+ align-content: center;
+ align-content: flex-start;
+ align-content: flex-end;
+ 
+}
+
+
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+}

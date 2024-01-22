@@ -1,0 +1,16 @@
+.count{
+ height: 500px;
+ background: salmon;
+ /* display: flex;  permet de faire un raccourcis pour flex wrap et direction */
+ flex-flow: wrap row; 
+ flex-flow  : wrap column;
+
+}
+
+
+.item{
+    width: 250px;
+    height: 250px;
+    background: red;
+    margin: 1rem;
+}

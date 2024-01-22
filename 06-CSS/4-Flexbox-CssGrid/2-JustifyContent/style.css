@@ -1,0 +1,23 @@
+.count{
+ height: 500px;
+ background: salmon;
+ display: flex;  
+/* alignement horizontal */
+/* justify-content: center; */
+/* justify-content: flex-start; */
+/* justify-content: flex-end; */
+/* justify-content: space-between; */
+/* justify-content: space-around; */
+/* justify-content: space-evenly; */
+/* justify-content: right; */
+/* justify-content: left; */
+
+}
+
+
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+}
