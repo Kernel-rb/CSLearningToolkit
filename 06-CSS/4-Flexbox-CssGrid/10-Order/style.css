@@ -1,0 +1,31 @@
+.count{
+ height: 500px;
+ background: salmon;
+
+ 
+}
+
+
+.item{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 1rem;
+}
+
+.item:nth-child(1){
+    background: hotpink;
+    order: 3;
+    align-self: center;
+}
+
+.item:nth-child(2){
+    background: blanchedalmond;
+    order: 1;
+    align-self: flex-start;
+}
+.item:nth-child(3){
+    background: blueviolet;
+    align-self: flex-end;
+    order: 2;
+}
