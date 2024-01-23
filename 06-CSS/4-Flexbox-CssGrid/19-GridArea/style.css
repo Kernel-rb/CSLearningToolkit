@@ -1,0 +1,39 @@
+.count{
+    height: 400px;
+    background: salmon;
+    display: grid;
+  
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+    grid-template-areas: "head head head"
+                         "main main main";
+
+
+    grid-gap : 10px;
+}
+
+.box1{
+    background: red;
+    grid-area: head;
+    grid-area: main;
+}
+.box2{
+    background: rgb(156, 141, 141);
+
+}
+.box3{
+    background: rgb(0, 0, 0);
+
+}
+.box4{
+    background: rgb(2, 225, 255);
+
+}
+.box5{
+    background: rgb(0, 255, 34);
+}
+.box6{
+    background: rgb(183, 0, 255);
+
+}

@@ -1,0 +1,39 @@
+.count{
+    height: 600px;
+    background: salmon;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns:  150px 150px 150px ;
+}
+
+.box1{
+    background: red;
+
+
+    /* Sur X */
+    justify-self: center;
+    /* justify-self: end || start || center || left || right || stretch; */
+
+    /* Sur Y */
+    align-self: center;
+    /* align-self: end || start || center || left || right || stretch; */
+}
+.box2{
+    background: rgb(156, 141, 141);
+
+}
+.box3{
+    background: rgb(0, 0, 0);
+
+}
+.box4{
+    background: rgb(2, 225, 255);
+
+}
+.box5{
+    background: rgb(0, 255, 34);
+}
+.box6{
+    background: rgb(183, 0, 255);
+
+}

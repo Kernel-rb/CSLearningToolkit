@@ -1,0 +1,37 @@
+.count{
+    height: 400px;
+    background: salmon;
+    display: grid;
+    grid-template-rows: [head-start]150px [head-end]150px;
+    grid-template-columns: repeat(3,[col-start]1fr [col-end]);
+
+
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap : 10px;
+}
+
+.box1{
+    background: red;
+    grid-row : head-start / head-end;
+    grid-column : col-start 2 / col-end 3;
+}
+.box2{
+    background: rgb(156, 141, 141);
+
+}
+.box3{
+    background: rgb(0, 0, 0);
+
+}
+.box4{
+    background: rgb(2, 225, 255);
+
+}
+.box5{
+    background: rgb(0, 255, 34);
+}
+.box6{
+    background: rgb(183, 0, 255);
+
+}
