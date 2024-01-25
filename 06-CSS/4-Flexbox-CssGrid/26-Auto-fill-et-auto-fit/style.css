@@ -1,0 +1,33 @@
+.count{
+    height: 600px;
+    background: salmon;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 150px  150px;
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));    
+
+}
+
+.box1{
+    background: red;
+}
+.box2{
+    background: rgb(156, 141, 141);
+
+}
+.box3{
+    background: rgb(0, 0, 0);
+
+}
+.box4{
+    background: rgb(2, 225, 255);
+
+}
+.box5{
+    background: rgb(0, 255, 34);
+}
+.box6{
+    background: rgb(183, 0, 255);
+
+}
