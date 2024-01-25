@@ -1,0 +1,1 @@
+alert("Kernel don't panic!")
