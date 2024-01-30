@@ -1,0 +1,22 @@
+.card{
+    border : 1px solid #000000;
+    border-radius : 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #00ffa2;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: whitesmoke;
+}
+
+.card h2{
+    margin-top: 0;
+    color: #004466;
+}
+
+.card p{
+    margin-bottom: 0;
+    color: #004466;
+}
