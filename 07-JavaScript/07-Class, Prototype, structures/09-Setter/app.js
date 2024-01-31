@@ -1,20 +1,24 @@
+// ---- Setter : est une méthode qui permet de modifier une propriété d'un objet----------------
+
 class Exemple{
     _valeur = 0;
-
-    get maValeur(){
-        console.log('Getter appelé');
-        return this._valeur
+    get valeur() {
+        console.log(' from getter')
+        return this._valeur;
     }
 
-    set maValeur(nouvelleValeur){
-        console.log("Setter appelé");
-        if(nouvelleValeur >= 0){
-            this._valeur = nouvelleValeur;
-        }else {
-            console.error("La valeur doit etre supérieure ou égale à zero")
+    set valeur(newvalue) {
+        console.log(' from setter')
+        this._valeur = newvalue;
+        if (newvalue <= 0) {
+            this._valeur = 0;
         }
     }
 }
 
+let obj = new Exemple();
 
- 
+obj.valeur = 5;
+console.log(obj.valeur);
+obj.valeur = -1;  
+console.log(obj.valeur);
