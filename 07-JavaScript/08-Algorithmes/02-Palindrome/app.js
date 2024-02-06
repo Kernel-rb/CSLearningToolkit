@@ -1,11 +1,10 @@
-function palindrome(chaine){
-    const chaineMinuscules = chaine.toLowerCase();
+function palandrome(mot) {
+    const motMuicule = mot.toLowerCase();
+    const motInvers = mot.split("").reverse().join("")
 
-    const chaineInverse = chaineMinuscules.split('').reverse().join('')
-
-    return chaineMinuscules === chaineInverse
+    return motMuicule === motInvers
 }
 
-console.log(palindrome('radar'));
-console.log(palindrome('hello'));
-console.log(palindrome('Jonathan'));
+console.log(palandrome("saif"))
+console.log(palandrome("radar"))
+

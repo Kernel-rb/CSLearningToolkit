@@ -1,20 +1,17 @@
-function trouverPlusGrand(tableau){
-    if(tableau.length === 0){
-        return undefined
+function pgn(arr) {
+    if (arr.lenght === 0) {
+        return undefined 
     }
+    let plusgra = arr[0]
 
-    let plusGrand  = tableau[0];
-
-    for(let i = 1; i < tableau.length; i++){
-        if(tableau[i] > plusGrand){
-            plusGrand = tableau[i]
+    for (let i = 1; i < arr.length ; i++){
+        if (plusgra < arr[i]) {
+            plusgra = arr[i]
         }
     }
-    return plusGrand
+    return plusgra
 }
 
-const tab = [5, 12, 8, 3, 20]
+let az = [0,2,7,3]
 
-const resultat = trouverPlusGrand(tab)
-
-console.log(resultat);
+console.log(pgn(az));
