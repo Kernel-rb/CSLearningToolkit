@@ -1,3 +1,4 @@
+package inputs;
 // Disp1lay text by kernel-rb  2/12/2024
 // Displays a strings and provides an example of a simple java app 
 
