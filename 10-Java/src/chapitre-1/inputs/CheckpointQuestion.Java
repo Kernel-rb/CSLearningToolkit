@@ -1,3 +1,5 @@
+package inputs;
+
 // CheckpointQuestion by kernel  2/12/2024
 // a question of an course about println 
 
