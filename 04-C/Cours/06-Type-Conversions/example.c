@@ -15,5 +15,4 @@ int main(){
     printf("x= %d , y = %lf  ,double_multi = %lf   , double_div =%lf , int_multi = %d , int_div=%d \n " , x , y , double_multi , double_div , int_multi , int_div );
 
     return 0;
-
 }
