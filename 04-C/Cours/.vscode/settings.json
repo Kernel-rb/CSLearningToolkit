@@ -2,5 +2,6 @@
     "files.associations": {
         "stdio.h": "c",
         "gretting.C": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
