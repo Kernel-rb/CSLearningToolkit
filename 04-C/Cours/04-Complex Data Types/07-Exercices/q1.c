@@ -42,7 +42,7 @@ void printmat(Matrix M)
   printf("[\n");
   for (i = 0; i < M.nrows; i++) {
     for (j = 0; j < M.ncols; j++) {
-      printf("%lf ", M.data[i * M.ncols + j]);
+      printf("%lf ", M.data[i * M.ncols + j ]);
     }
     printf("\n");
   }
