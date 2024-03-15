@@ -1,3 +1,5 @@
+// Allocating memory using Malloc calloc
+
 #include <stdio.h>
 #include <stdlib.h>
 
