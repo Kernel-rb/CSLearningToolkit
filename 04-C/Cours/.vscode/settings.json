@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "gretting.C": "cpp"
+        "gretting.C": "cpp",
+        "pointers-functions": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
