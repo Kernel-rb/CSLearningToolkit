@@ -12,5 +12,5 @@ myEmitter.on('biip sound', biipSound);
 // the second argument is the callback function that will be executed when the event is emitted
 
 myEmitter.emit("the biiiiiiip")
-// emit is a method that emits the event
+// emit is a method that emits the event , emit => alert
 // the argument is the event name
