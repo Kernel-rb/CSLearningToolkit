@@ -18,3 +18,4 @@ myEmitter.emit('incresement');
 myEmitter.emit('incresement');
 myEmitter.emit('incresement');
 // this will not be executed because the event is listened only once
+
