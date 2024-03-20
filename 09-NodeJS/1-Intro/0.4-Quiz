@@ -1,0 +1,29 @@
+# Quiz : 
+## 1- How does Node.js process code?
+    A- In a sequential manner
+    B- In a parallel manner
+```javascript
+    // Answer : A
+    (
+        NodeJS is a single-threaded, non-blocking, asynchronous execution environment.
+    )
+```
+## 2- Node.js uses Google’s V8 to execute JavaScript code in the browser?
+    A- True
+    B- False
+```javascript
+    // Answer : B
+    (
+        Node.js uses Google’s V8 to execute JavaScript code outside the browser.
+    )
+```
+
+## 3- What is a blocking operation? 
+    A- An operation that blocks the event loop
+    B- An operation that blocks the execution of the next statement
+```javascript
+    // Answer : A
+    (
+        A blocking operation blocks the event loop until it completes.
+    )
+```
