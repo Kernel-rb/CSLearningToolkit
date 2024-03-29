@@ -1,6 +1,7 @@
 # Concepts 🧠
 
 Welcome to the Concepts folder! Here, you'll find resources covering fundamental computer science concepts to help you build a solid foundation in your learning journey.
+
 ---
 ## Overview 📚
 
