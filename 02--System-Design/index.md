@@ -17,3 +17,7 @@ In this folder, you'll find materials covering various aspects of system design,
 
 ---
 Feel free to explore these resources to enhance your understanding of system design principles and techniques. Happy designing! 🚀
+
+---
+
+[🔙 Return to Table of Contents](/README.md)
