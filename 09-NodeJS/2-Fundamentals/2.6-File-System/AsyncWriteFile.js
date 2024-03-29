@@ -17,3 +17,5 @@ fs.readFile('2.6-File-System/assets/kernel.txt', 'utf-8', (err, data) => {
     }
     console.log(`the data found  : \n${data}`);
 });
+
+// Path: 2.6-File-System/AsyncWriteFile.js
