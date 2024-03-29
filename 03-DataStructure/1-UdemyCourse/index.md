@@ -12,4 +12,4 @@ Feel free to explore these resources to enhance your understanding of data struc
 
 ---
 
-[🔙 Return to Table of Contents](/README.md)
+[🔙 Return to Table of Contents](https://kernel-rb.github.io/CSLearningToolkit/)

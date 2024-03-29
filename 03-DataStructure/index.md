@@ -8,7 +8,7 @@ This folder contains subfolders organized by different courses or resources for 
 
 ## Courses 🎓
 
-- [Udemy Course](./1-UdemyCourse/README.md): A comprehensive course on data structures from Udemy.
+- [Udemy Course](./1-UdemyCourse/index.md): A comprehensive course on data structures from Udemy.
 - [Google Student](./2-GoogleStudent/README.md): Coming soon...!
 
 Feel free to explore these resources to deepen your understanding of data structures. Happy learning! 🚀
