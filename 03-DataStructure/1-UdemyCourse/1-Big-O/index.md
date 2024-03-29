@@ -19,4 +19,4 @@ Feel free to explore these resources to understand Big O notation and algorithmi
 
 ---
 
-[🔙 Return to Udemy Course](/README.md)
+[🔙 Return to Table of Contents](https://kernel-rb.github.io/CSLearningToolkit/)
