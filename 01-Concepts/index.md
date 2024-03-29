@@ -21,4 +21,4 @@ Feel free to explore these resources and dive deeper into the world of computer 
 
 ---
 
-[🔙 Return to Table of Contents](../../README.md)
+[🔙 Return to Table of Contents](https://kernel-rb.github.io/CSLearningToolkit/)

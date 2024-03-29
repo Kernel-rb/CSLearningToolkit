@@ -15,4 +15,4 @@ Feel free to explore these resources to deepen your understanding of data struct
 
 ---
 
-[🔙 Return to Table of Contents](/README.md)
+[🔙 Return to Table of Contents](https://kernel-rb.github.io/CSLearningToolkit/)
