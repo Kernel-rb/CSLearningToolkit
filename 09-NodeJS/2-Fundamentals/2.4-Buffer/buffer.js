@@ -29,3 +29,5 @@ console.log(buf5);
 
 console.log(buf5.toString());
 // toString() means that the buffer is converted to a string
+const bufa4 = Buffer.from([255, 257]);
+console.log(bufa4)
