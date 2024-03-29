@@ -1,4 +1,4 @@
-# CS Learning Toolkit 🎓💻
+# CS Learning Toolkit  || By Kernel.rb
 
 Welcome to the CS Learning Toolkit repository! This repository contains various resources and materials to aid in learning computer science concepts, programming languages, and related topics. You can explore different directories to find resources organized by topics.
 
