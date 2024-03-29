@@ -1,8 +1,7 @@
-# CS Learning Toolkit 📝
 > [!IMPORTANT]  
 > This website is still under construction. Currently, we are focusing on topics such as concepts, system design, data structures, HTML, and CSS
-> 
-Welcome to the CS Learning Toolkit repository! This repository contains various resources and materials to aid in learning computer science concepts, programming languages, and related topics. You can explore different directories to find resources organized by topics.
+
+- Welcome to the CS Learning Toolkit repository! This repository contains various resources and materials to aid in learning computer science concepts, programming languages, and related topics. You can explore different directories to find resources organized by topics.
 
 ## Table of Contents 📚
 
