@@ -4,9 +4,9 @@ Welcome to the Udemy Course folder! This folder contains resources from a compre
 
 ## Contents 📄
 
-- [Big-O](./1-Big-O): Understanding algorithm efficiency and Big O notation.
-- [Class Pointers](./2-Class-Pointers): Exploring class pointers and memory management.
-- [Linked List](./3-LinkedList): Learning about linked lists and their operations.
+- [Big-O](./1-Big-O/index.md): Understanding algorithm efficiency and Big O notation.
+- [Class Pointers](./2-Class-Pointers/index.md): Exploring class pointers and memory management.
+- [Linked List](./3-LinkedList/index.md): Learning about linked lists and their operations.
 
 Feel free to explore these resources to enhance your understanding of data structures. Happy learning! 🚀
 
