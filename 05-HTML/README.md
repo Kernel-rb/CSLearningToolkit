@@ -44,3 +44,7 @@ This repository contains a structured learning path for HTML. Each folder repres
   - Description: Notes related to the HTML learning path.
 
 Feel free to explore each folder for detailed content on the respective topic. Happy coding! 🎉
+
+---
+
+[] # (end of file)
