@@ -11,4 +11,4 @@ Feel free to download and explore these resources to learn more about linked lis
 
 ---
 
-[🔙 Return to Table of Contents](https://kernel-rb.github.io/CSLearningToolkit/)
+[🔙 Return to Table of Contents](https://kernel-rb.github.io/CSLearningToolkit/03-DataStructure/1-UdemyCourse/)
