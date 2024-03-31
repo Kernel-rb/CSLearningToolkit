@@ -15,11 +15,12 @@ Welcome to the CS Learning Toolkit repository! This repository contains various 
 | 7.  | [JavaScript](./07-JavaScript/)                                           | Resources for learning JavaScript               |
 | 8.  | [TypeScript](./08-TypeScript/)                                           | Resources for learning TypeScript               |
 | 9.  | [Node.js](./09-NodeJS/)                                                  | Resources for learning Node.js                  |
-| 10. | [Java](./10-Java/)                                                       | Resources for learning Java                     |
-| 11. | [Python](./11-Python/)                                                   | Resources for learning Python                   |
-| 12. | [Rust](./12-Rust/)                                                       | Resources for learning Rust                     |
-| 13. | [Data Science and Machine Learning](./13-DataScience-ML/)                | Resources for data science and machine learning |
-| 14. | [Certifications](./14-Certfications/)                                    | Resources for various certifications            |
+| 10. | [Docker](./10-Docker/)                                                   | Resources for learning Docker                   |
+| 11. | [Java](./11-Java/)                                                       | Resources for learning Java                     |
+| 12. | [Python](./12-Python/)                                                   | Resources for learning Python                   |
+| 13. | [Rust](./13-Rust/)                                                       | Resources for learning Rust                     |
+| 14. | [Data Science and Machine Learning](./14-DataScience-ML/)                | Resources for data science and machine learning |
+| 15. | [Certifications](./15-Certfications/)                                    | Resources for various certifications            |
 
 ---
 
