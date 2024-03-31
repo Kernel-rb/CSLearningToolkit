@@ -1,26 +1,20 @@
-# Node.js Learning Resources 🚀
+# Learn Node.js: The Complete Course for Beginners (Educative.io)
 
-Welcome to the Node.js Learning Resources directory! This directory contains various resources and exercises to help you learn and practice Node.js.
+This repository contains learning materials and projects related to Node.js, organized into several directories. Each directory corresponds to a different aspect or stage of learning Node.js.
 
----
+If you're interested in a comprehensive Node.js course, consider checking out the [Learn Node.js: The Complete Course for Beginners](https://www.educative.io/courses/learn-nodejs-complete-course-for-beginners) on Educative.io.
 
-## Overview 📚
+## Contents
 
-This directory is organized into subfolders, each focusing on specific Node.js topics, concepts, or exercises.
+| Directory            | Description                                          |
+|----------------------|------------------------------------------------------|
+| [1-Intro](./1-Intro/0.1-Features.md) | Introduction to Node.js.                             |
+| [2-Fundamentals](./2-Fundamentals/2.1-Input/) | Fundamental concepts of Node.js.             |
+| [3-Advanced-Topics](./3-Advanced-Topics/1-Modules/) | Advanced topics in Node.js development.    |
+| [4-Packages](./4-Packages/1.packages/) | Working with packages and modules in Node.js.      |
+| [5-Projects](./5-Projects) | Practical projects to apply and enhance Node.js skills. |
 
----
+## Usage
 
-## Topics Covered 📋
+Feel free to navigate through the directories and explore the learning materials and projects provided. Each directory may contain its own README.md with specific instructions or information relevant to that topic.
 
-Here's a brief overview of the topics covered in this directory:
-
-1. **[Introduction to Node.js](1-Intro/index.html)**
-2. **[Node.js Fundamentals](2-Fundamentals/index.html)**
-
----
-
-Feel free to explore these resources and exercises to enhance your understanding of Node.js. Happy coding! 🎉
-
----
-
-[🔙 Return to Table of Contents](https://kernel-rb.github.io/CSLearningToolkit/)
