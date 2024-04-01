@@ -22,19 +22,19 @@
     - 2^8 = 256 possible values
     - u8 -> [0, 255] , for example, 0, 1, 2, 3, ..., 255
     - i8 -> [-128, 127] , for example, -128, -127, -126, ..., 127
-    ![alt text](image.png)
+![alt text](/path/to/image.png)
 
 ### 16 bits Integers
     - 2^16 = 65536 possible values
     - u16 -> [0, 65535]
     - i16 -> [-32768, 32767]
-![alt text](image-1.png)
+![alt text](/path/to/image-1.png)
 
 ### 32 bits Integers
     - 2^32 = 4294967296 possible values
     - u32 -> [0, 4294967295]
     - i32 -> [-2147483648, 2147483647]
-![alt text](image-2.png)
+![alt text](/path/to/image-2.png)
 
 ## Rust Integer Data types 
     |Length|Signed|Unsigned|
