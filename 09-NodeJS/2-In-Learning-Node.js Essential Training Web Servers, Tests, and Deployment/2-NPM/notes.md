@@ -1,0 +1,1 @@
+# I didn't take all notes about this section , cuz it the same like the previous course/npm section
