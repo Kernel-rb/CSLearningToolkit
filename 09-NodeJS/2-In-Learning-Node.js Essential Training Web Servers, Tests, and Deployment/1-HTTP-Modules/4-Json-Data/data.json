@@ -1,0 +1,29 @@
+{
+  "languages": [
+    {
+      "name": "JavaScript",
+      "yearOfFoundation": 1995,
+      "creator": "Brendan Eich"
+    },
+    {
+      "name": "Python",
+      "yearOfFoundation": 1991,
+      "creator": "Guido van Rossum"
+    },
+    {
+      "name": "Java",
+      "yearOfFoundation": 1995,
+      "creator": "James Gosling"
+    },
+    {
+      "name": "C++",
+      "yearOfFoundation": 1983,
+      "creator": "Bjarne Stroustrup"
+    },
+    {
+      "name": "Ruby",
+      "yearOfFoundation": 1995,
+      "creator": "Yukihiro Matsumoto"
+    }
+  ]
+}
