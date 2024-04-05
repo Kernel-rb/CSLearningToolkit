@@ -27,3 +27,9 @@
 - Advanced Encryption Standard (AES) : AES is a symmetric encryption algorithm that encrypts and decrypts data in blocks of 128 bits.
 - 128-bit AES encryption is used in many applications, including secure communications and data storage.
 - 256 bit and more vectors are also available
+
+
+```bash
+C:\masm32\bin\ml /c /coff testing.asm
+C:\masm32\bin\link /subsystem:console testing.obj
+```
