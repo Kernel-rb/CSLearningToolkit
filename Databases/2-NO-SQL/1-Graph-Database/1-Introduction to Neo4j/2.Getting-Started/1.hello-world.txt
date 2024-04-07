@@ -1,0 +1,12 @@
+// Create a node with a label
+CREATE (learner:Learner {name:'kernel'}),
+       (hello:Greeting {message:'Hello, kernel!'}),
+       (learner)-[r:SAYS]->(hello)
+      
+//Return the learner
+MATCH (me:Learner)
+RETURN me
+
+//Return the whole pattern
+MATCH (learner:Learner)-[rel]-(greeting:Greeting)
+RETURN *

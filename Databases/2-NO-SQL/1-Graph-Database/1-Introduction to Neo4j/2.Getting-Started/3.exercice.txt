@@ -1,0 +1,7 @@
+Create  (learner:learner {name:"Kernel"}),
+        (hy:Greeting {message:"nice to meet you"}),
+        (learner) -[ref:SAYS]--> (hy)
+
+// Find all learners:
+MATCH (learner:learner)-[ref]-(hy:Greeting)
+RETURN *
