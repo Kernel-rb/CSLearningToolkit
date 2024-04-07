@@ -1,6 +1,8 @@
 # Set LF (Unix-style) line endings for all files
 * text eol=lf
-
 # Set CRLF (Windows-style) line endings for specific files
 *.js text eol=crlf
 *.html text eol=crlf
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
