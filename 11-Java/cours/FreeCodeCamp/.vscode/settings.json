@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "02-Data-Types",
         "01.Variables",
         "0.Hello-World",
-        "02-Data-Types"
+        "03.Ops"
     ]
 }
