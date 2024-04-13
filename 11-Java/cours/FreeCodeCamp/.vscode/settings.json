@@ -1,11 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "06.Conditional-Statement",
         "05.User-Inputs",
         "04.Strings",
         "03.Ops",
         "02-Data-Types",
         "01.Variables",
         "0.Hello-World",
-        "06.Conditional-Statement"
+        "07.Switch-Case"
     ]
 }
