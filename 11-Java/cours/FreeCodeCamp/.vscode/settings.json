@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "09.For-loop",
         "08.Arrays",
         "07.Switch-Case",
         "06.Conditional-Statement",
@@ -9,6 +10,6 @@
         "02-Data-Types",
         "01.Variables",
         "0.Hello-World",
-        "09.For-loop"
+        "10.While-loop"
     ]
 }
