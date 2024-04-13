@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "11.ArrayLists",
         "10.While-loop",
         "09.For-loop",
         "08.Arrays",
@@ -11,6 +12,6 @@
         "02-Data-Types",
         "01.Variables",
         "0.Hello-World",
-        "11.ArrayLists"
+        "12.HashMap"
     ]
 }
