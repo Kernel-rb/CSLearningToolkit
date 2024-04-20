@@ -23,6 +23,16 @@ app.get('/json', (req, res) => {
 });
 
 
+app.get('/:word/echo' , (req , res ) => {
+    let word = req.params.word;
+    res.json({echo : `${word}` })
+});
+
+app.get("/name", function(req, res) {
+    var firstName = req.query.first;
+    var lastName = req.query.last;
+    res.json({name: `${firstName} ${lastName}`});
+  });
 
 
 module.exports = app;
