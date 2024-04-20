@@ -36,5 +36,10 @@ app.get("/name", function(req, res) {
     res.json({name: `${firstName} ${lastName}`});
   });
 
+app.post('/name' , (req , res)=> {
+    let string = req.body.first + " " + req.body.last;
+    res.json({name : string});
+});
+
 
 module.exports = app;
