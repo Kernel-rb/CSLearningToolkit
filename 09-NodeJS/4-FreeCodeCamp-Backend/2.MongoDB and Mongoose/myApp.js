@@ -75,10 +75,10 @@ const findEditThenSave = (personId, done) => {
 
 const findAndUpdate = (personName, done) => {
   const ageToSet = 20;
-  Person.findOneAndUpdate({name: personName}, {age: ageToSet}, {new: true}, (err, updatedDoc) => {
-    if(err) return console.log(err);
+  Person.findOneAndUpdate({ name: personName }, { age: ageToSet }, { new: true }, (err, updatedDoc) => {
+    if (err) return console.log(err);
     done(null, updatedDoc);
-  })
+  });
 };
 
 const removeById = (personId, done) => {
@@ -98,9 +98,9 @@ const removeManyPeople = (done) => {
 
 const queryChain = (done) => {
   const foodToSearch = "burrito";
-  var findQuery = Person.find({favoriteFoods : foodToSearch}).sort({name : -1}).limit(5).select({ favoriteFoods: 0 }).exec(function(error, done) {
-    if(err)  return console.log(err);
-    done(null , data);
+  var findQuery = Person.find({ favoriteFoods: foodToSearch }).sort('name').limit(2).select('-age').exec((err, data) => {
+    if (err) return console.log(err);
+    done(null, data);
   });
 };
 
