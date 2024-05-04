@@ -45,8 +45,16 @@ app.get('/api/:date?', (req, res) => {
     const utcString = parsedDate.toUTCString();
     return res.json({ unix: unixTimestamp, utc: utcString });
   } else {
-    // If date is invalid, return error message
-    return res.json({ error: "Invalid Date" });
+    // If date is invalid, check if it's a Unix timestamp
+    const unixTimestamp = parseInt(date);
+    if (!isNaN(unixTimestamp)) {
+      // If it's a valid Unix timestamp, convert it to UTC string
+      const utcString = new Date(unixTimestamp).toUTCString();
+      return res.json({ unix: unixTimestamp, utc: utcString });
+    } else {
+      // If neither a valid date nor a Unix timestamp, return error message
+      return res.json({ error: "Invalid Date" });
+    }
   }
 });
 
