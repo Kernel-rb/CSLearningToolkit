@@ -42,8 +42,17 @@ class LinkedList  :
             if self.length == 0  : 
                 self.head = None 
                 self.tail = None
-        return temp # temp.value bach return l value li popit 
-    
+        return temp # v
+    def  prepend(self , value) :
+        new_node = Node(value) 
+        if self.head is not None : 
+            self.head.next = self.head   
+            self.head = new_node
+            self.length += 1
+        else : 
+            self.head = new_node 
+            self.tail = new_node
+            self.length += 1
 
 ll = LinkedList(1)
 ll.append(2)
