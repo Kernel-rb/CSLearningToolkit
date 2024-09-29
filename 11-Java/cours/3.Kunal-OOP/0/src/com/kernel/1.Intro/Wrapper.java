@@ -2,11 +2,15 @@ package com.kernel;
 
 public class Wrapper {
     public static void main(String[] args) {
-     // Garbage collector
-    Jump e;
-    for(int i = 0 ; i < 100000000 ; i++){
-         e = new Jump(150);
-    }
+
+        /* Garbage collector :
+        Jump e;
+        for(int i = 0 ; i < 100000000 ; i++){
+             e = new Jump(150);
+        }
+        */
+        Jump a = new Jump(40);
+        System.out.println(a);
     }
 }
 
@@ -26,6 +30,11 @@ class Jump {
         this.normalJump -= dropDamage;
     }
 
+
+
+    public String toString(){
+        return "You can Jump " + this.normalJump;
+    }
 
     @Override
     protected void finalize() throws Throwable {
