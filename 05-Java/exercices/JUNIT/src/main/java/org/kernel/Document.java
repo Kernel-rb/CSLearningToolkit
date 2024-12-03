@@ -1,4 +1,15 @@
 package org.kernel;
 
-public interface Document {
+import javax.print.Doc;
+
+public abstract   interface Document {
+    boolean estDisponible();
+    void emprunter();
+    void retourner();
+}
+
+
+
+public interface a extends Document {
+
 }

@@ -3,6 +3,9 @@ public class selectionSort {
     
   }
   
+
+  // O(n**2) 
+
   public static void selectionSortAl(int[] arr){
     for(int i = 0 ; i < arr.length ; i++){
       int lIdx = arr.length - i - 1; 

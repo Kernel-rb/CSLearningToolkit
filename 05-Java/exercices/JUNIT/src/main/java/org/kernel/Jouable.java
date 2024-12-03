@@ -1,4 +1,7 @@
 package org.kernel;
 
-public class Jouable {
+public interface Jouable {
+    void attaquer();
+    void defendre();
+    void seDeplacer();
 }
